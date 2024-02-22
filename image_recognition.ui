@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Image_Recognition</class>
+ <widget class="QWidget" name="Image_Recognition">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>991</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>26</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Image_Recognition</string>
+  </property>
+  <widget class="QVideoWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>60</y>
+     <width>241</width>
+     <height>151</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>240</y>
+     <width>250</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>250</width>
+     <height>300</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Label_image_capture">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>100</y>
+     <width>300</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>900</width>
+     <height>600</height>
+    </size>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_capture">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>540</y>
+     <width>281</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>拍照</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_local">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>540</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>本地选择照片</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>10</y>
+     <width>211</width>
+     <height>27</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QVideoWidget</class>
+   <extends>QWidget</extends>
+   <header>qvideowidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
